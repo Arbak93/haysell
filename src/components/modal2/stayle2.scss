@@ -1,0 +1,33 @@
+
+.close2{
+width: 100%;
+height: auto;
+padding-bottom: 5px;
+text-align: end;
+border:none;
+font-size: 20px;
+margin-bottom: 15px;
+cursor: pointer;
+
+}
+.open2{
+   width: 200px;
+   height: 50px;
+   border:1px solid chocolate;
+   border-radius:15px;
+   font-size: 18px;
+   margin-top: 65px;
+   cursor: pointer;
+   transition:1000ms;
+   background-color:transparent;
+  span
+{
+    margin-right: 10px;
+    font-weight: 500;
+    }
+
+}
+.open2:hover{
+background-color:chocolate;
+color: aliceblue;
+}

@@ -1,0 +1,125 @@
+@font-face {
+    font-family: Montserratarm;
+    src: url('../fonts/Montserratarm-SemiBold.otf');
+}
+
+.box1 {
+    max-width: 1300px;
+    min-height: 570px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    flex-wrap: wrap;
+
+    .box1title {
+        width: 100%;
+        text-align: center;
+    }
+
+    .content {
+        padding-top: 39px;
+        padding-bottom: 70px;
+        width: 100%;
+        min-height: 500px;
+        display: flex;
+        justify-content: space-between;
+         flex-wrap: wrap;
+        .imgcontent {
+            max-width: 380px;
+            min-height: 460px;
+
+            img {
+                width: 100%;
+            }
+
+        }
+
+        .textcontent {
+            max-width: 860px;
+            min-height: 460px;
+            display: flex;
+            flex-direction: column;
+
+            .title1 {
+                width: 100%;
+
+                h3 {
+                    font-family: Montserratarm;
+                    color: #f46036;
+                    align-items: center;
+                    letter-spacing: 1px;
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 24px;
+                    line-height: 24px;
+                    margin-bottom: 24px;
+                }
+            }
+
+            .title2 {
+
+                width: 100%;
+
+                p {
+                    font-family: Montserratarm;
+                    color: #474747;
+                    align-items: center;
+                    letter-spacing: 1px;
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 18px;
+                    line-height: 24px;
+                    margin-bottom: 16px
+                }
+            }
+
+            .text {
+
+                width: 100%;
+
+                p {
+                    font-family: Montserratarm;
+                    color: #757575;
+                    align-items: center;
+                    letter-spacing: 1px;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 24px;
+                    margin-bottom: 32px;
+                }
+            }
+
+            .arialinc {
+                 width: 100px;
+                 height: 50px;
+                 border: 1px solid chocolate;
+                 display: flex;
+                 justify-content: center;
+                 align-items: center;
+                 border-radius: 10px;
+                 transition:1000ms ;
+                 
+                 a{   text-decoration: none;
+                    color: #474747;
+                    letter-spacing: 1px;
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 18px;
+
+                }
+                
+            }
+            .arialinc:hover{
+            
+            background-color: #f46036;
+           
+            }
+            .arialinc:hover a{
+            color: aliceblue;
+            
+            }
+        }
+    }
+
+}

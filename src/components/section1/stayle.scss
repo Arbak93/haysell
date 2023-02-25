@@ -1,0 +1,71 @@
+@font-face {
+    font-family: Montserrat;
+    src: url('../fonts/Montserratarm-Medium.otf')
+}
+
+.box {
+    max-width: 1300px;
+    width: 100%;
+    min-height: 515px;
+    height: 100%;
+    display: flex;
+    padding-top: 70px;
+    margin: 0 auto;
+   
+
+    .texts {
+        max-width: 736px;
+        min-height: 515px;
+        display: flex;
+        flex-direction: column;
+
+        h3 {
+            color: #474747;
+            letter-spacing: 1px;
+            font-style: normal;
+            font-family: Montserrat;
+            font-weight: 700;
+            font-size: 38px;
+            line-height: 60px;
+
+        }
+
+
+        p {
+            color: #757575;
+            align-items: center;
+            letter-spacing: 1px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            position: relative;
+            font-family: Montserrat;
+
+
+        }
+    }
+
+    .modalbox {
+        max-width: 420px;
+        min-height: 52px;
+       display: flex;
+       justify-content: space-between;
+    }
+    
+    .animation {
+        max-width: 515px;
+        width: 100%;
+        min-height: 415px;
+       
+        margin-top: 60px;
+        margin-left: 40px;
+        border-radius: 25px;
+
+        img {
+            width: 100%;
+            height: 50%;
+        }
+
+    }
+}

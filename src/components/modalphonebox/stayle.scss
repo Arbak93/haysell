@@ -1,0 +1,188 @@
+@font-face {
+    font-family: Montserrat;
+    src: url('../fonts/Montserratarm-Medium.otf')
+}
+
+.phonsboxsmodal {
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    .phonebox2 {
+        margin: 25px auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        max-width: 456px;
+        width: 100%;
+        height: 75px;
+        border-radius: 23px;
+        border: 4px solid rgba(28,110,164,0.37);
+        .inp
+       
+{
+            border: 1px solid rgb(234, 123, 25);
+            margin: 25px;
+            margin-left: unset;
+            max-width: 456px;
+            width: 100%;
+            min-height: 67px;
+            border-radius: 20px;
+            background-color: #FFFFFF;
+            
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            position: relative;
+            outline: none;
+            -webkit-border-radius: 20px;
+            -moz-border-radius: 20px;
+            -ms-border-radius: 20px;
+            -o-border-radius: 20px;
+
+            .absolute {
+                width: 93px;
+                height: 58px;
+                position: absolute;
+                top: 0px;
+                .absolute2 {
+                    position: absolute;
+                    width: 92px;
+                    height: 100px;
+                    top: 58px;
+                    display: none;
+                   
+    
+    
+                    .ru {
+    
+                        padding-left: 5px;
+                        padding-right: 5px;
+                        width: 90px;
+                        height: 49px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        color: #161311;
+                        cursor: pointer;
+                        background-color: #fefefe;
+    
+                        span {
+    
+                            font-size: 25px;
+                            font-weight: 700;
+                        }
+                    }
+                    .ru:hover{
+                        background-color:#e2dcdc
+                        }
+    
+                    .am2 {
+    
+                        padding-left: 5px;
+                        padding-right: 5px;
+                        width: 90px;
+                        height: 49px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        color: #2a2623;
+                        
+                        cursor: pointer;
+                        background-color: #ffffff;
+    
+                        span {
+                            font-size: 20px;
+                            font-weight: 700;
+                        }
+                    }
+                    .am2:hover{
+                    background-color:#e2dcdc
+                    }
+    
+                }
+            }
+
+            input {
+                max-width: 300px;
+                width: 100%;
+                border: none;
+                margin-left: 25%;
+                outline: none;
+                font-size: 20px;
+                font-weight: 600;
+
+
+            }
+
+            .am {
+                padding-left: 15px;
+                padding-right: 5px;
+                position: absolute;
+                font-size: 25px;
+                font-weight: 500;
+                width: 89px;
+                min-height: 58px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                border-radius: 25px;
+                cursor: pointer;
+                background-color: #f1eaea;
+
+            }
+
+            
+
+            .absolute:hover .absolute2 {
+                display: block;
+            }
+        }
+
+
+
+    }
+
+    button {
+        margin-top: 25px;
+        width: 250px;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #474747;
+        border: 1px solid #f46036;
+        box-sizing: border-box;
+        border-radius: 16px;
+        text-decoration: none;
+        font-size: 18px;
+        line-height: 18px;
+        font-weight: 500;
+        transition: 1000ms;
+        -webkit-transition: 1000ms;
+        -moz-transition: 1000ms;
+        -ms-transition: 1000ms;
+        -o-transition: 1000ms;
+}
+
+    .titlebox {
+        width: 100%;
+        height: auto;
+        text-align: center;
+
+        p {
+            font-family: Montserrat;
+            color: #474747;
+            letter-spacing: 1px;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 27px;
+            line-height: 32px;
+        }
+    }
+}

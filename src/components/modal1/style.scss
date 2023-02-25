@@ -1,0 +1,28 @@
+
+.close{ width: 100%; height: auto; padding-bottom: 5px; text-align: end; border:none; font-size: 20px; margin-bottom: 15px; cursor: pointer; z-index: 12; background-color:white;
+}
+.open{
+    width: 200px;
+    height: 50px;
+    border:1px solid chocolate;
+    border-radius:15px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 65px;
+    cursor: pointer;
+    z-index: 12;
+    transition:1000ms ;
+    -webkit-transition:1000ms ;
+    -moz-transition:1000ms ;
+    -ms-transition:1000ms ;
+    -o-transition:1000ms ;
+    -webkit-border-radius:15px;
+    -moz-border-radius:15px;
+    -ms-border-radius:15px;
+    -o-border-radius:15px;
+}
+.open:hover{
+background-color:rgb(228, 104, 15);
+color: aliceblue;
+z-index: 12;
+}

@@ -1,0 +1,83 @@
+@font-face {
+    font-family: Montserratarm;
+    src: url('../fonts/Montserratarm-Light.otf');
+}
+
+.menu {
+    margin: 0 auto;
+    max-width: 1300px;
+    width: 100%;
+    min-height: 47px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+    .navtext {
+        max-width: 992px;
+        width: 100%;
+        height: auto;
+        display: flex;
+        
+        align-items: center;
+        flex-wrap: wrap;
+            img{
+            margin-right: 40px;
+            }
+
+        a {
+            text-decoration: none;
+
+            p {
+                font-family: Montserratarm;
+                font-style: normal;
+                line-height: 24px;
+                font-weight: 700;
+                font-size: 14px;
+                color: #000000;
+                margin-left: 30px;
+    
+            }
+           
+            p:hover {
+                transition: 450ms;
+                color: #f46036;
+                -webkit-transition: 450ms;
+                -moz-transition: 450ms;
+                -ms-transition: 450ms;
+                -o-transition: 450ms;
+            }
+        }
+       
+    }
+.langform{
+width: 120px;
+height: auto;
+display: flex;
+justify-content: space-between;
+
+}
+    .bloc{
+     width: 60px;
+     height: auto;
+     display: flex;
+     flex-direction: column;
+    justify-content: center;
+     img{
+    width: 30px;
+    }
+     .nones{
+        width: 60px;
+        height: auto;   
+        display: none;
+
+    }
+   
+    }
+    .bloc:hover .nones{
+        display: flex;
+        flex-direction: column;
+        display: block;
+        position: absolute;
+        top: 50px;
+       }
+}

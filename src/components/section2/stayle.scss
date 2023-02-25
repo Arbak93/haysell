@@ -1,0 +1,124 @@
+@font-face {
+    font-family: Montserratarm;
+    src: url('../fonts/Montserratarm-SemiBold.otf');
+}
+
+.main {
+    max-width: 1300px;
+    width: 100%;
+    transition: 2000ms;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 auto;
+
+
+    .title {
+        width: 100%;
+        text-align: center;
+
+        h1 {
+            font-family: Montserratarm;
+            font-style: normal;
+            color: #474747;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 32px;
+        }
+
+        p {
+            font-family: Montserratarm;
+            font-style: normal;
+            color: #757575;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+        }
+
+    }
+
+
+    .smolbox {
+        transition: 2000ms;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 300px;
+        height: 300px;
+        margin-top: 33px;
+        border: 0.1px solid rgb(210, 203, 185);
+        border-radius: 15px;
+        cursor: pointer;
+        position: relative;
+               img{
+            margin-bottom: 25px;
+            }
+
+        p {
+
+
+            font-family: Montserratarm;
+            text-align: center;
+            color: #f46036;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 24px;
+        }
+
+        .span {
+            display: none;
+            width: 100%;
+            height: 100px;
+            height: 70%;
+            z-index: 10;
+            top: 250px;
+            background-color: #f2f5f9;
+            position: absolute;
+            border: 1px solid rgb(210, 203, 185);
+            border-top: none;
+            border-bottom-left-radius: 15px;
+            border-bottom-right-radius: 15px;
+
+            ul {
+
+                li {
+                    height: auto;
+                    ;
+                    font-family: Montserratarm;
+                    font-style: normal;
+                    color: #757575;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 21px;
+
+                }
+            }
+        }
+
+    }
+
+
+    .smolbox:hover span {
+
+        display: block;
+
+    }
+
+
+    .btnbox {
+        width: 100%;
+        height: auto;
+        text-align: center;
+        margin-top: 95px;
+
+
+
+    }
+
+}

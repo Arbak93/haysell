@@ -1,0 +1,109 @@
+.Scool {
+    margin: 70px auto;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1300px;
+    width: 100%;
+    min-height: 500px;
+    flex-wrap: wrap;
+
+    .btn_section {
+        transform: scale(1, 1);
+        margin-top: 70px;
+    }
+
+    .btn_section button:hover {
+        transform: scale(1.02);
+
+    }
+
+    .title {
+        text-align: center;
+        width: 100%;
+        margin-bottom: 70px;
+
+    }
+
+    a {
+        list-style: none;
+        text-decoration: none;
+        color: #888484;
+
+
+    }
+
+    .navbox {
+        border-radius: 20px;
+        max-width: 300px;
+        min-height: 350px;
+        width: 100%;
+        position: relative;
+        border-bottom: 1px solid rgb(172, 170, 170);
+
+        .titlebox {
+            border-left: 2px solid rgb(61, 61, 161);
+            padding-left: 15px;
+
+            h3 {
+                list-style: none;
+                text-decoration: none;
+            }
+        }
+
+        .imgbox {
+            border-radius: 20px;
+            max-width: 300px;
+            min-height: 150px;
+            width: 100%;
+
+            img {
+                border-radius: 20px;
+                width: 100%;
+                height: 100%;
+
+            }
+
+        }
+
+        .play {
+            background-color: rgb(173, 195, 214);
+            border-radius: 50%;
+            width: 54px;
+            height: 54px;
+            position: absolute;
+            top: 50px;
+            left: 120px;
+        }
+
+        .titlebox {
+            font-size: 15px;
+
+            p {
+                font-weight: 500;
+            }
+        }
+
+        .textbox {
+            font-size: 13px;
+
+            span {
+                font-weight: 400;
+            }
+
+        }
+    }
+
+    .navbox:hover {
+
+        transition: 1000ms;
+        transform: scale(1.15);
+        color: #000;
+    }
+
+    .navbox:hover .play {
+        transition: 2000ms;
+        background-color: rgb(50, 151, 223);
+
+    }
+
+}
